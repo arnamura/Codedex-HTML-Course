@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant | MMMmmmmmm Burgir</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: left;
+            gap: 20px;
+            align-items: center;
+            background-color: #eaecc3;
+            padding: 10px;
+            color: rgb(30, 32, 34);
+            position: relative
+        }
+        .header-img {
+            width: 100px;
+            height: auto;
+        }
+        .nav-menu {
+            position: absolute;
+            right: 10%;
+            transform: translateX(50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            text-align: center;
+        }
+        .nav-list {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .article-card {
+            background-color: #eaecc3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 75%;
+            margin: 24px auto;
+        }
+        .card-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+
+        }
+        .form-btn {
+            background-color: #eaecc3;
+            border: none;
+            color: rgb(30, 32, 34);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 10px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #eaecc3;
+            padding: 10px;
+            text-align: center;
+            color: rgb(30, 32, 34);
+        }   
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <img 
+            class="header-img"
+            src="https://png.pngtree.com/png-vector/20220824/ourmid/pngtree-pixel-art-burger-icon-design-vector-png-image_6122163.png"
+            alt="Burgir Str. Logo" 
+        />
+        <h1>Burgir Str.</h1>
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Menu</h2>
+            <article class="article-card">
+                <h3>Burgirss</h3>
+                <section class="card-wrapper">
+                    <div class="card">
+                        <img class="header-img" src="https://png.pngtree.com/png-vector/20220824/ourmid/pngtree-pixel-art-burger-icon-design-vector-png-image_6122163.png" alt="Burgir Image" />
+                        <h4>Cheeseburgir</h4>
+                        <p>Classic burgir with Chmeeeeesssssss. Recommended buy!</p>
+                        <p>Price: $5.99</p>
+                    </div>
+                    <div class="card">
+                        <img class="header-img" src="https://png.pngtree.com/png-vector/20220824/ourmid/pngtree-pixel-art-burger-icon-design-vector-png-image_6122163.png" alt="Burgir Image" />
+                        <h4>Cheeseburgir</h4>
+                        <p>Classic burgir with Chmeeeeesssssss. Recommended buy!</p>
+                        <p>Price: $5.99</p>
+                    </div>
+                    <div class="card">
+                        <img class="header-img" src="https://png.pngtree.com/png-vector/20220824/ourmid/pngtree-pixel-art-burger-icon-design-vector-png-image_6122163.png" alt="Burgir Image" />
+                        <h4>Cheeseburgir</h4>
+                        <p>Classic burgir with Chmeeeeesssssss. Recommended buy!</p>
+                        <p>Price: $5.99</p>
+                    </div>
+                </section>
+            </article>
+            <article class="article-card">
+                <h3>Drinks</h3>
+                <section class="card-wrapper">
+                    <div class="card">
+                        <img class="header-img" src="https://dinopixel.com/preload/0923/Coca-cola-can.png" alt="cola Image" />
+                        <h4>Cola</h4>
+                        <p>Heavenly drink to refreshen your life</p>
+                        <p>Price: $1.99</p>
+                    </div>
+                    <div class="card">
+                        <img class="header-img" src="https://dinopixel.com/preload/0923/Coca-cola-can.png" alt="cola Image" />
+                        <h4>Cola</h4>
+                        <p>Heavenly drink to refreshen your life</p>
+                        <p>Price: $1.99</p>
+                    </div>
+                    <div class="card">
+                        <img class="header-img" src="https://dinopixel.com/preload/0923/Coca-cola-can.png" alt="cola Image" />
+                        <h4>Cola</h4>
+                        <p>Heavenly drink to refreshen your life</p>
+                        <p>Price: $1.99</p>
+                    </div>
+                </section>
+            </article>
+            <article class="article-card">
+                <h3>Additional</h3>
+                <section class="card-wrapper">
+                    <div class="card">
+                        <img class="header-img" src="https://png.pngtree.com/png-vector/20240208/ourmid/pngtree-sauce-ketchup-bottle-pixelated-png-image_11715443.png" alt="sauce Image" />
+                        <h4>Extra Sauce</h4>
+                        <p>Very Hot Sauce</p>
+                        <p><i>Price: $.99</i></p>
+                    </div>
+                    <div class="card">
+                        <img class="header-img" src="https://png.pngtree.com/png-vector/20240208/ourmid/pngtree-sauce-ketchup-bottle-pixelated-png-image_11715443.png" alt="sauce Image" />
+                        <h4>Extra Sauce</h4>
+                        <p>Very Hot Sauce</p>
+                        <p><i>Price: $.99</i></p>
+                    </div>
+                    <div class="card">
+                        <img class="header-img" src="https://png.pngtree.com/png-vector/20240208/ourmid/pngtree-sauce-ketchup-bottle-pixelated-png-image_11715443.png" alt="sauce Image" />
+                        <h4>Extra Sauce</h4>
+                        <p>Very Hot Sauce</p>
+                        <p><i>Price: $.99</i></p>
+                    </div>
+                </section>
+            </article>
+        </section>
+        <br><br>
+        <section>
+            <h2>Place Your Order</h2>
+        </section>
+            <form>
+                <article class="article-card">
+                    <h2>Burgirs</h2>
+                    <h3>Which Burgir fo you want?</h3>
+                    <div class="card">
+                        <label for="burgir"><input type="radio" name="burgir" value="cheeseburgir"> Cheeseburgir</label><br>
+                        <label for="burgir"><input type="radio" name="burgir" value="bacon-burgir"> Double Cheeseburgir</label><br>
+                    </div>
+                    <div>
+                        <br><label for="burgir-quantity">How Many?  <input type="number" name="burgir-quantity" min="0" max="10" value="0"></label><br> 
+                    </div>
+
+                    <h3>Additional addons</h3>
+                    <div class="card">
+                        <input type="checkbox" name="extra" value="cheese"> Extra Sauce<br>
+                        <input type="checkbox" name="extra" value="no-veggies"> No Veggies<br>      
+                    </div>
+
+                    <h3>Wierd Request for the burgir</h3>
+                    <div>
+                        <textarea name="burgir-request" rows="4" cols="50" placeholder="Please write your request here..."></textarea>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <h2>Drinks</h2>
+                    <h3>Which Drinks fo you want?</h3>
+                    <div class="card">
+                        <input type="radio" name="drinks" value="cola"> cola<br>
+                        <input type="radio" name="drinks" value="sprite"> sprite<br>
+                    </div>
+                                      
+                    <h3>How many?</h3>
+                    <div>
+                        <input type="number" name="drink-quantity" min="0" max="10" value="0"><br>     
+                    </div>
+
+                    <h3>Additional addons</h3>
+                    <div class="card">
+                        <input type="checkbox" name="extraD" value="ice"> Extra Ice<br>
+                        <input type="checkbox" name="extraD" value="large"> Large<br>      
+                    </div>
+
+                    <h3>Wierd Request for the Drinks</h3>
+                    <div>
+                        <textarea name="drink-request" rows="4" cols="50" placeholder="Please write your request here..."></textarea>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <h2>Additional</h2>
+                    <h3>Which Additional fo you want?</h3>
+                    <div class="card">
+                        <input type="radio" name="add" value="sauce"> Sauce<br>
+                        <input type="radio" name="add" value="hot-sauce"> Hot Sauce<br>
+                    </div>
+                                      
+                    <h3>How many?</h3>
+                    <div>
+                        <input type="number" name="additional-quantity" min="0" max="10" value="0"><br>     
+                    </div>
+
+                    <h3>Wierd Request for the Additional</h3>
+                    <div>
+                        <textarea name="additional-request" rows="4" cols="50" placeholder="Please write your request here..."></textarea>
+                    </div>
+                </article>
+                <input class="form-btn" type="submit" value="Go To Checkout">
+                <input class="form-btn" type="reset" value="Reset Order">
+                <br><br>
+            </form>
+        </section>
+    </main>
+    <footer>
+         <p>Made With Love by <b>@Skr4mbled</b></p>
+    </footer>
+</body>
+</html>
